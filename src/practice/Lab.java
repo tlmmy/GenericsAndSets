@@ -11,6 +11,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
+import java.util.TreeSet;
 
 /**
  *
@@ -66,5 +67,18 @@ public class Lab {
         
         System.out.println("");
     
+        
+    //lab 5
+    Set<Employee> employees3 = new TreeSet<>();
+    employees3.add(e1);
+    employees3.add(e2);
+    employees3.add(e3);
+    employees3.add(e4);
+    
+   for(Employee e : employees3){
+       System.out.println(e);
+   }
+        
+       
     }
 }
